@@ -9,10 +9,10 @@ const roomSchema=mongoose.Schema({
         type:Number,
         required:true
     },
-    // phoneNumber:{
-    //     type:Number,
-    //     required:true 
-    // },
+    phonenumber:{
+        type:Number,
+        required:true 
+    },
     rentperday:{
         type:Number,
         required:true 
